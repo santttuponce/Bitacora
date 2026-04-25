@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitácora de Hardware | PC Santino 2026</title>
+  <meta name="description" content="Portafolio técnico de hardware, presupuestos y mantenimiento. 5to Año.">
+  <meta name="author" content="Santino Ponce">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <button id="btn-tema" class="interruptor-tema" title="Cambiar tema">☽</button>
+
+  <nav id="navbar">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#componentes">Hardware</a></li>
+      <li><a href="#perifericos">Periféricos</a></li>
+      <li><a href="#presupuestos">Presupuestos</a></li>
+      <li><a href="#mantenimiento">Mantenimiento</a></li>
+      <li><a href="#arduino">Arduino / IoT</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ━━━━━━━━━━━━━━━━ HERO ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section id="inicio">
+      <p class="hero-eyebrow">
+        <span>✦</span>
+        Laboratorio de Informática &nbsp;·&nbsp; 5to Año · 2026
+        <span>✦</span>
+      </p>
+      <h1>Bitácora de<br><em>Hardware</em></h1>
+      <p class="hero-sub">Santino Ponce &nbsp;—&nbsp; Diagnóstico · Armado · Mantenimiento · IoT</p>
+      <div class="hero-cta">
+        <a href="LINK_DEL_DOC" target="_blank" class="boton-accion boton-filled">Ver Ficha Técnica ↗</a>
+        <a href="#componentes" class="boton-accion">Explorar Componentes</a>
+      </div>
+      <div class="hero-line"></div>
+    </section>
+
+    <!-- ━━━━━━━━━━━━━━━━ COMPONENTES ━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section id="componentes">
+      <div class="section-header">
+        <span class="section-num">01 — Hardware</span>
+        <h2>PC Santino<br>Diagnóstico de Componentes</h2>
+        <p class="section-desc">Especificaciones técnicas completas del equipo ensamblado para el laboratorio.</p>
+        <div class="sep"></div>
+      </div>
+
+      <div class="galeria-grid">
+
+        <div class="tarjeta">
+          <img src="images/mother.png" alt="ASUS ROG STRIX X870E-E">
+          <span class="tag">Placa Madre</span>
+          <h3>ASUS ROG STRIX X870E-E GAMING WIFI DDR5 AM5</h3>
+          <p>Socket AM5 · PCIe 5.0 · DDR5 · Wi-Fi 7</p>
+          <button id="btn-diagnostico" class="boton-accion">Ver Layout ↗</button>
+          <a href="https://drive.google.com/file/d/19tR7AFKIH7DRjc87ufzCXwrXt4-jW3Tq/view?usp=drive_link" target="_blank" class="boton-accion" style="margin-left:8px">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/procesador.png" alt="AMD Ryzen 9 9950X">
+          <span class="tag">CPU</span>
+          <h3>AMD Ryzen 9 9950X — 5.7 GHz Turbo</h3>
+          <p>Socket AM5 · Arquitectura x86-64 · Sin cooler incluido</p>
+          <a href="https://docs.google.com/document/d/1J9MzzTK2fHLyaI2XKIrpeQPbzGuF9oyp/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/RAM.png" alt="Corsair Vengeance DDR5 64GB">
+          <span class="tag">Memoria RAM</span>
+          <h3>Corsair Vengeance DDR5 64 GB (2×32 GB) 6000 MHz</h3>
+          <p>CL40 · AMD EXPO / Intel XMP 3.0 · 63.8 GB utilizable</p>
+          <a href="https://docs.google.com/document/d/1VJRVPSYJ09EjQbUrVf0Iy7VSXOCszAfJ/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/gpu.webp" alt="ASUS ROG RTX 5090 ASTRAL OC">
+          <span class="tag">GPU</span>
+          <h3>ASUS ROG RTX 5090 32 GB GDDR7 ASTRAL OC</h3>
+          <p>GeForce RTX 5090 · GDDR7 · PCIe 5.0</p>
+          <a href="https://docs.google.com/document/d/1AQT7zM7V__1wpS-z4wSgXE4c7xwJZhBE/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/ssd.png" alt="ADATA Legend 900 PRO 4TB NVMe">
+          <span class="tag">Almacenamiento</span>
+          <h3>ADATA Legend 900 PRO 4 TB NVMe M.2</h3>
+          <p>7400 MB/s secuencial · PCIe Gen 4 x4</p>
+          <!-- BOTÓN AGREGADO -->
+          <a href="https://docs.google.com/document/d/1VJRVPSYJ09EjQbUrVf0Iy7VSXOCszAfJ/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/fuente.png" alt="ASUS ROG Thor 3 1200W">
+          <span class="tag">Fuente</span>
+          <h3>ASUS ROG Thor 3 1200 W 80+ Platinum III</h3>
+          <p>Full Modular · ATX 3.1 · PCIe 5.1</p>
+          <a href="https://docs.google.com/document/d/1f7oz7juXbA92ptmGo_kfBlrjzrqUFQnA/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/cooler.png" alt="ASUS ROG RYUJIN III 360">
+          <span class="tag">Refrigeración</span>
+          <h3>ASUS ROG RYUJIN III 360 ARGB EXTREME White</h3>
+          <p>AIO Líquida · 360 mm · ARGB</p>
+          <!-- BOTÓN AGREGADO -->
+          <a href="https://docs.google.com/document/d/1J9MzzTK2fHLyaI2XKIrpeQPbzGuF9oyp/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/gabinete.png" alt="Corsair 9000D Super Full Tower">
+          <span class="tag">Gabinete</span>
+          <h3>Corsair 9000D RGB TG Airflow Super Full Tower</h3>
+          <p>Vidrio templado · ATX · Airflow optimizado</p>
+          <!-- BOTÓN AGREGADO -->
+          <a href="https://docs.google.com/document/d/1f7oz7juXbA92ptmGo_kfBlrjzrqUFQnA/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Modal layout placa madre -->
+    <dialog id="modal-info">
+      <h3>Layout — ASUS ROG STRIX X870E-E</h3>
+      <img src="images/layout.png" alt="Layout manual ASUS ROG STRIX X870E-E GAMING">
+      <p>El socket AM5 aloja el Ryzen 9 9950X. Se observan las ranuras DIMM DDR5 para los 64 GB instalados, los slots PCIe 5.0 para la RTX 5090 y el M.2 Gen4 para el SSD ADATA de 4 TB.</p>
+      <button id="btn-cerrar" class="boton-accion">Cerrar</button>
+    </dialog>
+
+    <!-- ━━━━━━━━━━━━━━━━ PERIFÉRICOS ━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section id="perifericos">
+      <div class="section-header">
+        <span class="section-num">02 — Periféricos</span>
+        <h2>Dispositivos de<br>Entrada / Salida</h2>
+        <p class="section-desc">Interfaces físicas de comunicación entre el usuario y el sistema.</p>
+        <div class="sep"></div>
+      </div>
+
+      <div class="galeria-grid">
+        <div class="tarjeta">
+          <img src="images/monitor.png" alt="Samsung Odyssey 3D G90XF 27">
+          <span class="tag">Salida — Video</span>
+          <h3>Samsung Odyssey 3D G90XF 27" UHD 4K</h3>
+          <p>3 unidades · Fast IPS · 165 Hz · 1 ms · G-SYNC / FreeSync</p>
+          <a href="https://docs.google.com/document/d/1ZE7BmR-QGx7lyRupfza6e-PfbN5DjaC0/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/kit.png" alt="Kit Teclado y Mouse inalámbrico">
+          <span class="tag">Entrada</span>
+          <h3>Kit Teclado &amp; Mouse</h3>
+          <p>Conectividad USB Bluetooth / Inalámbrico 2.4 GHz</p>
+          <a href="https://docs.google.com/document/d/1ZE7BmR-QGx7lyRupfza6e-PfbN5DjaC0/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/auriculares.png" alt="Corsair Virtuoso MAX Wireless">
+          <span class="tag">Entrada / Salida — Audio</span>
+          <h3>Corsair Virtuoso MAX Wireless</h3>
+          <p>Dolby Atmos · 60 h batería · USB-C / Bluetooth · PC / PS / Switch / Mac</p>
+          <a href="https://docs.google.com/document/d/1ZE7BmR-QGx7lyRupfza6e-PfbN5DjaC0/edit?usp=sharing&ouid=106052676635250648537&rtpof=true&sd=true" target="_blank" class="boton-accion">Investigación ↗</a>
+        </div>
+      </div>
+
+      <div class="caja-destacada">
+        <h3>Base de Datos de Conocimiento</h3>
+        <p>Informe técnico completo sobre arquitectura de buses, funcionamiento de componentes y resolución de cuellos de botella (Bottlenecks).</p>
+        <a href="LINK_A_TU_GOOGLE_DOC_TEORICO" target="_blank" class="boton-accion boton-filled">
+          Leer Informe de Arquitectura ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- ━━━━━━━━━━━━━━━━ PRESUPUESTOS ━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section id="presupuestos">
+      <div class="section-header">
+        <span class="section-num">03 — Presupuestos</span>
+        <h2>Armado de Equipos</h2>
+        <p class="section-desc">Documentación técnica de presupuestos redactada bajo normas APA.</p>
+        <div class="sep"></div>
+      </div>
+
+      <div class="galeria-grid">
+        <div class="tarjeta">
+          <span class="tag">Presupuesto Libre</span>
+          <h3>PC Gaming de Alto Rendimiento</h3>
+          <p>Máximo rendimiento gráfico, refrigeración avanzada y componentes de gama entusiasta sin restricción de presupuesto.</p>
+          <a href="LINK_DOC_GAMING" target="_blank" class="boton-accion">Ver Informe APA ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <span class="tag">Presupuesto Limitado</span>
+          <h3>PC de Oficina / Ofimática</h3>
+          <p>Enfoque en durabilidad, eficiencia energética y la mejor relación costo-beneficio para entornos de trabajo.</p>
+          <a href="LINK_DOC_OFICINA" target="_blank" class="boton-accion">Ver Informe APA ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ━━━━━━━━━━━━━━━━ MANTENIMIENTO ━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section id="mantenimiento">
+      <div class="section-header">
+        <span class="section-num">04 — Laboratorio</span>
+        <h2>Diagnóstico y<br>Mantenimiento</h2>
+        <p class="section-desc">Procedimientos técnicos realizados sobre equipos reales en el entorno de laboratorio.</p>
+        <div class="sep"></div>
+      </div>
+
+      <div class="galeria-grid">
+        <div class="tarjeta">
+          <span class="tag">Práctica</span>
+          <h3>Ficha Práctica de Hardware</h3>
+          <p>Reconocimiento visual e inspección de componentes internos en equipos de descarte del laboratorio.</p>
+          <a href="LINK_A_LA_FICHA_PRACTICA" target="_blank" class="boton-accion">Ver Ficha ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <span class="tag">Protocolo</span>
+          <h3>Manual del Técnico</h3>
+          <p>Protocolos de diagnóstico, desarme, uso del multímetro y recuperación de datos mediante Dongle.</p>
+          <a href="LINK_AL_MANUAL_UNIFICADO" target="_blank" class="boton-accion">Leer Manual ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/soldadura.jpg" alt="Práctica de soldadura electrónica">
+          <span class="tag">Reparación</span>
+          <h3>Soldadura y Recuperación</h3>
+          <p>Desoldadura de componentes y reparación de pistas en placas base averiadas de descarte.</p>
+        </div>
+      </div>
+
+      <div class="caja-destacada">
+        <h3>PDF Teórico Completo</h3>
+        <p>Funcionamiento interno, arquitectura de componentes, tipos de memoria y resolución de cuellos de botella.</p>
+        <a href="LINK_AL_PDF_TEORICO" target="_blank" class="boton-accion boton-filled">
+          Descargar PDF Teórico ↗
+        </a>
+      </div>
+    </section>
+
+    <!-- ━━━━━━━━━━━━━━━━ ARDUINO ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+    <section id="arduino">
+      <div class="section-header">
+        <span class="section-num">05 — Arduino &amp; IoT</span>
+        <h2>Proyectos de<br>Electrónica Aplicada</h2>
+        <p class="section-desc">Programación en C++ y diseño de circuitos para resolver problemas del mundo real.</p>
+        <div class="sep"></div>
+      </div>
+
+      <div class="galeria-grid">
+        <div class="tarjeta">
+          <img src="images/lentes_ciegos.jpg" alt="Lentes asistenciales con sensor ultrasónico">
+          <span class="tag">Accesibilidad</span>
+          <h3>Lentes Asistenciales para Discapacitados Visuales</h3>
+          <p>Hardware: ESP32 · Sensor ultrasónico HC-SR04 · Buzzer piezoeléctrico</p>
+          <p>Lógica: Detección de obstáculos y alertas sonoras proporcionales a la distancia.</p>
+          <a href="LINK_AL_CODIGO_O_INFORME" target="_blank" class="boton-accion">Ver Código y Circuito ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <img src="images/basurero.jpg" alt="Basurero inteligente con Arduino">
+          <span class="tag">Domótica</span>
+          <h3>Basurero Inteligente Automático</h3>
+          <p>Hardware: Arduino Uno · Servomotor SG90 · Sensor de proximidad IR</p>
+          <p>Lógica: Apertura automática de la tapa al detectar movimiento del usuario.</p>
+          <a href="LINK_AL_CODIGO_O_INFORME" target="_blank" class="boton-accion">Ver Código y Circuito ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 — Proyecto de Laboratorio de Hardware &nbsp;|&nbsp; 5to Año</p>
+    <p style="margin-top:6px">Desarrollado con HTML, CSS y JS puro &nbsp;·&nbsp; Santino Ponce</p>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
