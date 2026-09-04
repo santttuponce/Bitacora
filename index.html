@@ -7,6 +7,19 @@
   <meta name="description" content="Portafolio técnico de hardware, presupuestos y mantenimiento. 5to Año.">
   <meta name="author" content="Santino Ponce">
   <link rel="stylesheet" href="styles/style.css">
+  <style>
+    .tarjeta video {
+      width:100%; height:180px;
+      object-fit:contain;
+      background:var(--bg3);
+      border-radius:10px; padding:14px;
+      margin-bottom:14px;
+      border:1px solid var(--border);
+      display:block;
+      transition:transform .4s var(--ease);
+    }
+    .tarjeta:hover video { transform:scale(1.04); }
+  </style>
 </head>
 <body>
   
@@ -323,6 +336,17 @@
           <p>Hardware: ESP32 · Sensor DHT22 · Resistencia Pull-up</p>
           <p>Lógica: Lectura de temperatura y humedad ambiente mediante protocolo digital del sensor.</p>
           <a href="https://wokwi.com/projects/472082055645377537" target="_blank" class="boton-accion">Ver Código y Circuito ↗</a>
+        </div>
+
+        <div class="tarjeta">
+          <video src="videos\WhatsApp Video 2026-08-29 at 5.10.01 PM.mp4" controls muted loop playsinline poster="images/mod 9.png">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+          <span class="tag">Proyecto Integrador</span>
+          <h3>Módulo 9 — Sistema de Estacionamiento Inteligente</h3>
+          <p>Hardware: Arduino UNO · Módulo RFID RC522 · Pantalla LCD 16x2 I2C · 2× Servomotor SG90 · Sensor IR · LEDs indicadores (Verde / Amarillo / Rojo)</p>
+          <p>Lógica: Control de acceso vehicular mediante lectura de tarjeta RFID, apertura y cierre automático de barreras con servomotores y señalización de disponibilidad de plazas de estacionamiento.</p>
+          <a href="https://wokwi.com/projects/474241122920613889" target="_blank" class="boton-accion">Ver Código y Circuito ↗</a>
         </div>
 
       </div>

@@ -301,6 +301,18 @@ h2 {
 }
 .tarjeta:hover img { transform:scale(1.04); }
 
+.tarjeta video {
+  width:100%; height:180px;
+  object-fit:contain;
+  background:var(--bg3);
+  border-radius:10px; padding:14px;
+  margin-bottom:14px;
+  border:1px solid var(--border);
+  display:block;
+  transition:transform .4s var(--ease);
+}
+.tarjeta:hover video { transform:scale(1.04); }
+
 h3 {
   font-family:'Syne',sans-serif;
   font-size:.88rem; font-weight:700;
